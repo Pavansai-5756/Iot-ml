@@ -3,7 +3,7 @@ from main import generateAI
 import pickle
 
 generateAI()
-ai=pickle.load('model.pkl','rb'))
+ai=pickle.load(open('model.pkl','rb'))
 
 app=Flask(__name__)
 
